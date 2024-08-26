@@ -13,11 +13,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set Streamlit page configuration
-st.set_page_config(page_title="Roody RAG", layout="wide")
+st.set_page_config(page_title="Document Genie", layout="wide")
 
 # Display the app introduction
 st.markdown("""
-## Document Roody: Get instant insights from your Documents
+## Document Genie: Get instant insights from your Documents
 
 This chatbot is built using the Retrieval-Augmented Generation (RAG) framework, leveraging Google's Generative AI model Gemini-PRO. It processes uploaded PDF documents by breaking them down into manageable chunks, creates a searchable vector store, and generates accurate answers to user queries. This advanced approach ensures high-quality, contextually relevant responses for an efficient and effective user experience.
 
